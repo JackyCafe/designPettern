@@ -1,10 +1,13 @@
+from typing import List
+
+
 class Observable:
-    observers: list
+    observers: List
 
     def __init__(self):
         self.observers = []
 
-    def addObserver(self, observer):
+    def addObserver(self,observer):
         self.observers.append(observer)
 
     def removeObserver(self,observer):

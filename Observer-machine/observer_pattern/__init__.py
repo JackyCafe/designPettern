@@ -1,4 +1,4 @@
 from .observer import Observer
 from .observable import Observable
 from .heater import WaterHeater
-from .mode import DrinkMode,WashMode
+from .mode import DrinkingMode, WashingMode
